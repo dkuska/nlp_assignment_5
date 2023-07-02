@@ -1,2 +1,6 @@
-datasets
-transformers
+transformers 
+datasets 
+evaluate 
+accelerate 
+scikit-learn 
+torch

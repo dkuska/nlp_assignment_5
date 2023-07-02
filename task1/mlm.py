@@ -12,5 +12,5 @@ if __name__ == '__main__':
     # model.roberta.encoder.layer[i].output.dropout = ?
 
     #### Inference
-    text = "E-mail scam targets police chief Wiltshire Police warns about <mask> after its fraud squad chief was targeted.
+    text = "E-mail scam targets police chief Wiltshire Police warns about <mask> after its fraud squad chief was targeted."
 
