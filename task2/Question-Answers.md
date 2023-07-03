@@ -4,18 +4,39 @@
 
 ## Question 2
 
-- Question: Perform EDA on the train split and include
-  - distribution of number of questions per article (i.e., how many articles have x number of questions, how many article have y number of questions, etc)
-  - number of answers per question (notice that in the dataset, a question can have multiple answers associated with it)
-  - the number of free-form answers in this split
-  - the number of extractive answers in the training split
-  - the number of unanswerable questions
-  - the distribution of abstract lengths
+Training Split:
+
+- Number of Answers:                2675
+- Number of Unanswerable Questions: 281
+- Number of Free Form Answers:      622
+- Number of Extractive Answers:     1363
+
+Distribution Questions per Article:
+![](./../task1/graphics/TRAIN_questions_per_article.png))
+
+Distribution Characters per Abstract:
+![](./../task1/graphics/TRAIN_characters_per_abstract.png))
+
+Distribution Answers per Questions:
+![](./../task1/graphics/TRAIN_answers_per_question.png))
 
 ## Question 3
 
-- Question: Repeat step 2 for the test split.
+Test Split:
 
+- Number of Answers:                3554
+- Number of Unanswerable Questions: 366
+- Number of Free Form Answers:      878
+- Number of Extractive Answers:     1817
+
+Distribution Questions per Article:
+![](./../task1/graphics/TEST_questions_per_article.png))
+
+Distribution Characters per Abstract:
+![](./../task1/graphics/TEST_characters_per_abstract.png))
+
+Distribution Answers per Questions:
+![](./../task1/graphics/TEST_answers_per_question.png))
 ## Question 6
 
 - Set the maximum input length (i.e., concatenated question and abstract) to 128 and the maximum target length (i.e., answer sequence) to 32.  
