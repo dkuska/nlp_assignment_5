@@ -40,9 +40,12 @@ Distribution Answers per Questions:
 
 ## Question 6
 
-- Set the maximum input length (i.e., concatenated question and abstract) to 128 and the maximum target length (i.e., answer sequence) to 32.  
-- Do these maximum sequence values result in truncating a lot of your sequences?
-- Hint: Use the EDA on length distribution from the step 2 for answering this.
+Yes, unfortunately a lot of the samples have to be truncated. 
+From the average lengths of the abstracts this was to be expected.
+
+In the training dataset we observed: 2029 truncated and 54 un-truncated samples
+In the test dataset we observed: 1131 truncated and 77 un-truncated samples
+In the validation dataset we observed: 224 truncated and 8 un-truncated samples
 
 ## Question 10
 
