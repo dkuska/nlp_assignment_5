@@ -1,4 +1,6 @@
 .wandb
+wandb
+checkpoints
 
 
 # Byte-compiled / optimized / DLL files
