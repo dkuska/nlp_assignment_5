@@ -6,9 +6,15 @@
 - David Kuska
 - Yorick Scheffer
 
-## Instructions
+## Setup
 
 - create a venv as usual `python -m venv .venv`
 - activate venv `source .venv/bin/activate`
 - install requirements `pip install -r requirements.txt`
-- execute main file `python main.py`
+
+## Tasks
+
+- The answers to the tasks are split up between 3 files.
+- `training_script.py` - 1, 3, 4, 5, 6, 7, 8, 9
+- `Queston-Answers.md` - 2, 9, 10, 11
+- `main.py` - 10, 11
