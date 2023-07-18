@@ -12,13 +12,13 @@ Training Split:
 - Number of Extractive Answers:     1363
 
 Distribution Questions per Article:
-![Graph Distribution Questions per Article](./../task1/graphics/TRAIN_questions_per_article.png)
+![Graph Distribution Questions per Article](./../task2/graphics/TRAIN_questions_per_article.png)
 
 Distribution Characters per Abstract:
-![Graph Distribution Characters per Abstract](./../task1/graphics/TRAIN_characters_per_abstract.png)
+![Graph Distribution Characters per Abstract](./../task2/graphics/TRAIN_characters_per_abstract.png)
 
 Distribution Answers per Questions:
-![Graph Distribution Answers per Questions](./../task1/graphics/TRAIN_answers_per_question.png)
+![Graph Distribution Answers per Questions](./../task2/graphics/TRAIN_answers_per_question.png)
 
 ## Question 3
 
@@ -30,13 +30,13 @@ Test Split:
 - Number of Extractive Answers:     1817
 
 Distribution Questions per Article:
-![Graph Distribution Questions per Article](./../task1/graphics/TEST_questions_per_article.png)
+![Graph Distribution Questions per Article](./../task2/graphics/TEST_questions_per_article.png)
 
 Distribution Characters per Abstract:
-![Graph Distribution Characters per Abstract](./../task1/graphics/TEST_characters_per_abstract.png)
+![Graph Distribution Characters per Abstract](./../task2/graphics/TEST_characters_per_abstract.png)
 
 Distribution Answers per Questions:
-![Graph Distribution Answers per Questions](./../task1/graphics/TEST_answers_per_question.png)
+![Graph Distribution Answers per Questions](./../task2/graphics/TEST_answers_per_question.png)
 
 ## Question 6
 
