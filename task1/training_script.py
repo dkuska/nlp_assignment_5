@@ -13,7 +13,7 @@ Original file is located at
 from google.colab import drive
 ### mount your google drive
 drive.mount('/content/drive')
-model_save_path = "/content/drive/MyDrive/Colab Notebooks/" # change this to your local project folder
+model_save_path = "/content/drive/MyDrive/Colab Notebooks/sose2023" # change this to your local project folder
 
 """## Imports"""
 
@@ -77,7 +77,7 @@ encoded_ds = dataset.map(
     remove_columns=['text', 'label']
 )
 
-print(encoded_ds)
+encoded_ds
 
 """## Data Collator"""
 
@@ -91,7 +91,7 @@ data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer,
 model = AutoModelForMaskedLM.from_pretrained(model_checkpoint)
 
 # Task 6
-print(model)
+model
 
 """## Define TrainingArguments"""
 
@@ -135,7 +135,14 @@ trainer = Trainer(model=model,
 """## Train Model"""
 
 # Task 9
+
+# TODO: Hyper parameter tuning
+#   - batch size
+#   - number of epochs
+#   - weight decay
+#   - learning rate
 # Note: Should be executed in Google Colab
+# Note: Does not yet work as intended... Training loss does not seem to go down...
 
 trainer.train()
 
