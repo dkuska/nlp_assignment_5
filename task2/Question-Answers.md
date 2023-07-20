@@ -51,6 +51,14 @@ In the validation dataset we observed: 224 truncated and 8 un-truncated samples
 
 - Question: For logging, store the train and validation loss values for each step to your Weights & Biases https://wandb.ai/site profile and provide us with these plots. You can simply provide us screenshots of these plots.
 
+Eval Loss:
+![Graph Eval Loss](./../task2/graphics/EvalLoss.jpg)
+
+Prob Recording went somehow Wrong Training Loss:
+![Graph Train Loss](./../task2/graphics/ErrTrainLoss.jpg)
+
 ## Question 11
 
 - Question: How does your model perform when answering? Does the output make sense? What do you think should be done for improving the prediction?
+
+Not good, the Anwer doesn't make sense. A problem could be the quite strong truncation, where the model afterwards struggles with understanding, because the answer parts might be in the truncated content. Adding some sanity checks where the evaluation on really simple questions might also be useful to ensure that the model actually learned something useful. 
