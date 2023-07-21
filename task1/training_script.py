@@ -170,7 +170,7 @@ trainer.save_model(model_save_path + f'/{num_epochs}epochs_{batch_size}batchsize
 
 # # Task 11
 
-# text = "E-mail scam targets police chief Wiltshire Police warns about <mask> after its fraud squad chief was targeted."
-
-# mask_filler = pipeline('mask-filler', trainer)
-# mask_filler(text, top_k=5)
+text = "E-mail scam targets police chief Wiltshire Police warns about <mask> after its fraud squad chief was targeted."
+unmasker = pipeline('fill-mask', tokenizer=tokenizer, model=model)
+for i, result in enumerate(unmasker(text)):
+    print(f"Prediction #{i+1} - {result['token_str']} - score: {result['score']:.4f}")

@@ -27,7 +27,3 @@
 
 - `Queston-Answers.md`
   - Tasks: 2, 9, 10, 11
-
-- `main.py`
-  - Tasks: 10, 11
-  - run locally with `python main.py`
